@@ -1,7 +1,12 @@
 """
-PHANTOM TYPES!!!
-Validando fluxo de uma loja
-Receber pedido -> Checar produto -> Chegar estoque -> Checar endereço de entrega
+PHANTOM TYPES
+
+Usamos tipos fantasmas para representar, no próprio tipo de `Pedido`,
+quais validações ele já passou.
+
+Receber pedido -> Validar produto -> Validar estoque -> Validar endereço
+
+O mypy ajuda a garantir que as etapas sejam executadas na ordem correta.
 """
 
 from dataclasses import dataclass
