@@ -2,7 +2,7 @@
 Estamos esperando um Container com Int, se passarmos um Container com outro tipo, o mypy vai reclamar.
 """
 
-from src.higher_kinded_types.src_file import *
+from src.a7_higher_kinded_types.src_file import *
 from returns.maybe import Some
 from returns.io import IO
 

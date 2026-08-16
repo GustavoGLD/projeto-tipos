@@ -6,5 +6,5 @@ from src.a2_datakinds.src_file import *
 class NovoEstado: ...
 
 if __name__ == "__main__":
-    m1 = MaquinaDeVenda[int](0)
-    m2 = MaquinaDeVenda[NovoEstado](0)
+    p1 = MaquinaDeVenda[int](0)
+    p2 = MaquinaDeVenda[NovoEstado](0)

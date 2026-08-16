@@ -4,7 +4,7 @@ CRIANDO UMA CONSTRAINT
 Só é possível conversar com seres vivos que falam (objetos com metodo `conversar()`)
 Não é posssível conversar com cachorros, eles latem! (objetos sem o metodo `conversar()`)
 
-Podemos comparar nossa situação a a3_constraints:
+Podemos comparar nossa situação a constraints:
     - Adulto e Bebê respondem a Constraint `SerVivoFalante`
     - Cachorro e demais tipos, não.
 

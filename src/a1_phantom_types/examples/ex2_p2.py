@@ -1,3 +1,6 @@
+"""
+CORREÇÃO
+"""
 from src.a1_phantom_types.src_file import *
 if __name__ == "__main__":
     pedido_nao_validado = Pedido[NaoValidado]("frango", 2, "rua x")

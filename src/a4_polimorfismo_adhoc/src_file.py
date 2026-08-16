@@ -63,17 +63,3 @@ def usar_cpf(cpf: CPF) -> None:
 
 def usar_cnpj(cnpj: CNPJ) -> None:
     print(cnpj.valor)
-
-
-if __name__ == "__main__":
-    joao = PessoaFisica("joão")
-    padaria = PessoaJuridica("padaria")
-
-    joao_documento = criar_documento(joao)
-    padaria_documento = criar_documento(padaria)
-
-    usar_cpf(joao_documento)      # isso da certo
-    usar_cnpj(padaria_documento)  # isso da certo, tambem
-
-    usar_cpf(padaria_documento)   # isso da erro: padaria não tem CPF como documento
-    usar_cnpj(joao_documento)     # isso da erro: joão não tem CNPJ como documento
