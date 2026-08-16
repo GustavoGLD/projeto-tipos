@@ -1,0 +1,18 @@
+[project]
+name = "projeto-tipos"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "mypy>=2.1.0",
+    "returns[compatible-mypy]>=0.28.0",
+    "rich>=15.0.0",
+]
+
+[tool.mypy]
+plugins = ["returns.contrib.mypy.returns_plugin"]
+
+[dependency-groups]
+dev = [
+    "weasyprint>=69.0",
+]
+
